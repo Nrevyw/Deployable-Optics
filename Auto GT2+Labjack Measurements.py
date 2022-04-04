@@ -30,13 +30,14 @@ class GT2:
             strvalue = extractAfter(valuereturn,strcat(command,","));
             value = str2double(strvalue);
 
+
+
 ## Number of Deployments
 n = 1
 num = np.linspace(1,n,n)                        # CHANGE NUM OF DEPL.
 
 
 ## For loop for measurement
-
 path_to_script = os.path.dirname(getsourcefile(lambda:0))
 my_filename = os.path.join(path_to_script, r"PLACEHOLDER.txt")
 print('Log found at '+my_filename)
